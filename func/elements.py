@@ -8,6 +8,6 @@ def element():
         array.append(a)
     print(f'Количество {len(array)}: {array}')
 
-    mno = set(array)
-    array = list(mno)
+    mno = set(array)  # Преобразуем из листа в множество
+    array = list(mno)  # Преобразуем из множества в лист
     print(f'Количество {len(array)}: {array}')
